@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 
-import Page from "./(auth)/sign-in/[[...sign-in]]/page";
 
 export default function Home() {
   return (
     <div>
-    <Page/>
+    Hii
+    <Button>Alhmd</Button>
      </div>
   );
 }
