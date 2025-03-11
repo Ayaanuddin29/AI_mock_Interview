@@ -15,7 +15,7 @@ function QuestionSection({mockInterviewQuestion,activeQuestion,setActiveQuestion
     <div className='p-5 border rounded-lg my-10'>
      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5' >
         {mockInterviewQuestion && mockInterviewQuestion.map((question,index)=>(
-            <h2 className={`p-2 rounded-full text-xs md:text-sm text-center bg-secondary cursor-pointer ${activeQuestion===index && 'hover:bg-blue-800 text-white'}`} onClick={()=>setActiveQuestion(index)}>Question #{index+1}</h2>
+            <h2 className={`p-2 rounded-full text-xs md:text-sm text-center bg-secondary cursor-pointer ${activeQuestion===index && 'bg-blue-800 text-white'}`} onClick={()=>setActiveQuestion(index)}>Question #{index+1}</h2>
         ))}
 
      </div>
