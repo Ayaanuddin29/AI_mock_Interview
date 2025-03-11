@@ -14,6 +14,7 @@ function Header() {
       <ul className='gap-6 hidden md:flex'>
         <Link href={'/dashboard'} className='hover:text-primary hover:font-bold transition-all cursor-pointer '>Dashboard</Link>
         <Link href={'/dashboard/working'} className='hover:text-primary hover:font-bold transition-all cursor-pointer'>How it Works</Link>
+        <Link href={'/dashboard/about'} className='hover:text-primary hover:font-bold transition-all cursor-pointer'>About Dev</Link>
       </ul>
       <UserButton/>
     </div>
